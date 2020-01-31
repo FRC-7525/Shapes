@@ -1,3 +1,7 @@
+package org.team7525;
+
+import org.team7525.shapes.*;
+
 class Main {
   public static void main(String[] args) {
     Shape myRectangle = new Rectangle(15, 30);
