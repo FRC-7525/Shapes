@@ -5,10 +5,11 @@ package Shapes;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
+import org.team7525.shapes.*;
 
 public class AppTest {
-    @Test public void testAppHasAGreeting() {
-        App classUnderTest = new App();
-        assertNotNull("app should have a greeting", classUnderTest.getGreeting());
+    @Test public void testSquareArea() {
+        Square testSquare = new Square(1.0);
+        assertEquals("Area of a square with side 1.0 is 1.0", 1.0, testSquare.getArea(), 0.1);
     }
 }
